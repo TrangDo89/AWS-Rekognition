@@ -1,0 +1,2 @@
+# AWS-Rekognition
+Seefood
