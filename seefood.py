@@ -37,9 +37,6 @@ def label_image(img, confidence=50):
 
 
 if __name__ == "__main__":
-    # can't use input since PyCharm's console causes problems entering URLs
-    # img = input('Enter either a URL or filename for an image: ')
-    # img = 'https://render.fineartamerica.com/images/rendered/default/poster/8/10/break/images/artworkimages/medium/1/pizza-slice-diane-diederich.jpg'
     img = 'https://i.kinja-img.com/gawker-media/image/upload/s--6RyJpgBM--/c_scale,f_auto,fl_progressive,q_80,w_800/tmlwln8revg44xz4f0tj.jpg'
     # img = 'https://media-cdn.tripadvisor.com/media/photo-s/17/3b/9a/d2/burger-king.jpg'
     labelled_image = label_image(img)
